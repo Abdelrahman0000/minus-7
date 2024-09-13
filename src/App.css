@@ -159,7 +159,7 @@ button:hover {
 
 @media (max-width: 460px) {
   .game-screen .numbers-group {
-    flex-direction: column;
+    scale: .7;
   }
 }
 
@@ -188,7 +188,6 @@ button:hover {
 
 @media (max-width: 460px) {
   .game-screen .current-minus {
-    margin-bottom: 20px;
     width: 125px;
   }
 }
@@ -214,12 +213,6 @@ button:hover {
   height: 70px;
 }
 
-@media (max-width: 460px) {
-  .game-screen input {
-    margin-bottom: 20px;
-  }
-}
-
 .game-screen button {
   background-color: #33363f;
   color: #fff;
@@ -229,6 +222,10 @@ button:hover {
 .game-over-screen {
   background-color: #FF8981;
   flex-direction: column;
+}
+
+.game-over-screen h1 {
+  color: #33363f;
 }
 
 .game-over-screen .result-box {
