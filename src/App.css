@@ -224,7 +224,7 @@ button:hover {
   flex-direction: column;
 }
 
-.game-over-screen h1 {
+.game-over-screen h2 {
   color: #33363f;
 }
 
